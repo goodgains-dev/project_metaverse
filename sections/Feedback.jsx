@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-indent */
 'use client';
 
 import { motion } from 'framer-motion';
@@ -39,11 +40,13 @@ const Feedback = () => (
         variants={fadeIn('left', 'tween', 0.2, 1)}
         className="relative flex-1 flex justify-center items-center"
       >
-        <img
-          src="/planet-09.png"
-          alt="planet-09"
-          className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
-        />
+        <a href="https://goodgainslaunch.netlify.app/">
+          <img
+            src="/planet-09.png"
+            alt="planet-09"
+            className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
+          />
+        </a>
 
         <motion.div
           variants={zoomIn(0.4, 1)}
