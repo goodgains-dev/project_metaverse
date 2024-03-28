@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-named-as-default, import/no-named-as-default-member
 import Navbar from './Navbar';
 import { TypingText, TitleText } from './CustomTexts';
 import ExploreCard from './ExploreCard';

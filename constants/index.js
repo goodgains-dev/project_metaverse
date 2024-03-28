@@ -2,27 +2,27 @@ export const exploreWorlds = [
   {
     id: 'world-1',
     imgUrl: '/planet-01.png',
-    title: 'GoodGains NFT',
+    title: <a href="https://goodgainsnft.netlify.app/">GoodGains NFT</a>,
   },
   {
     id: 'world-2',
     imgUrl: '/planet-02.png',
-    title: 'GoodGains Gram',
+    title: <a href="https://goodgains-gram.vercel.app/">GoodGains Gram</a>,
   },
   {
     id: 'world-3',
     imgUrl: '/planet-03.png',
-    title: 'GoodGains Exchange',
+    title: <a href="https://goodgainsnft.netlify.app/">GoodGains Exchange</a>,
   },
   {
     id: 'world-4',
     imgUrl: '/planet-04.png',
-    title: 'GoodGains Live',
+    title: <a href="https://deepblue.vercel.app/">GoodGains Live</a>,
   },
   {
     id: 'world-5',
     imgUrl: '/planet-05.png',
-    title: 'GoodGains Gaming',
+    title: <a href="https://goodgainsnft.netlify.app/">GoodGains Music</a>,
   },
 ];
 

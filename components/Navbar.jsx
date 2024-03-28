@@ -10,30 +10,29 @@ const Navbar = () => (
     variants={navVariants}
     initial="hidden"
     whileInView="show"
-    className={`${styles.xPaddings} py-8 relative`}
+    className={`${styles} py-8 relative`}
   >
-    <div className="absolute w-[50%] inset-0 gradient-01" />
+    <div className="gradient-01" />
     <div
       className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}
     >
-      <a href="https://goodgainslaunch.netlify.app/">
-        <img
-          src="/menu.svg"
-          alt="menu"
-          className="w-[24px] h-[24px] object-contain"
-        />
-      </a>
+      <h3 className="font-extrabold text-[24px] leading-[30.24px] text-white">
+        <a href="https://goodgains-gram.vercel.app/">NFTs</a>
+      </h3>
       <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white">
-        GoodGains
+        <a href="https://goodgains-gram.vercel.app/">Trading</a>
       </h2>
-      <img
-        src="/logo.svg"
-        alt="menu"
-        className="w-[24px] h-[24px] object-contain"
-      />
+      <h4 className="font-extrabold text-[24px] leading-[30.24px] text-white">
+        <a href="https://goodgains-gram.vercel.app/" target="_blank" rel="noreferrer">Gram</a>
+      </h4>
+      <h5 className="font-extrabold text-[24px] leading-[30.24px] text-white">
+        <a href="https://deepblue.vercel.app/">Live</a>
+      </h5>
+      <h6 className="font-extrabold text-[24px] leading-[30.24px] text-white">
+        <a href="https://goodgains-gram.vercel.app//">Music</a>
+      </h6>
     </div>
   </motion.nav>
 );
 
 export default Navbar;
-
