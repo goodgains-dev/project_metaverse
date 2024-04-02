@@ -17,13 +17,13 @@ const Navbar = () => (
       className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}
     >
       <h3 className="font-extrabold text-[24px] leading-[30.24px] text-white">
-        <a href="https://goodgains-gram.vercel.app/">NFTs</a>
+        <a href="https://goodgainsgram.vercel.app/">NFTs</a>
       </h3>
       <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white">
-        <a href="https://goodgains-gram.vercel.app/">Trading</a>
+        <a href="https://goodgainsgram.vercel.app/">Trading</a>
       </h2>
       <h4 className="font-extrabold text-[24px] leading-[30.24px] text-white">
-        <a href="https://goodgains-gram.vercel.app/" target="_blank" rel="noreferrer">Gram</a>
+        <a href="https://goodgainsgram.vercel.app/" target="_blank" rel="noreferrer">Gram</a>
       </h4>
       <h5 className="font-extrabold text-[24px] leading-[30.24px] text-white">
         <a href="https://deepblue.vercel.app/">Live</a>
